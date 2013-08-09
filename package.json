@@ -1,0 +1,29 @@
+{
+  "name": "day-of-year",
+  "version": "0.0.0",
+  "description": "get the day of year because javascript has no tm_yday",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "keywords": [
+    "date",
+    "year"
+  ],
+  "author": "stephen mathieson",
+  "license": "MIT",
+  "dependencies": {
+    "better-assert": "~1.0.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stephenmathieson/day-of-year.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stephenmathieson/day-of-year/issues"
+  }
+}

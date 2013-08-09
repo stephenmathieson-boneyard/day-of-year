@@ -1,0 +1,16 @@
+{
+  "name": "day-of-year",
+  "repo": "stephenmathieson/day-of-year",
+  "description": "get the day of year because javascript has no tm_yday",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "component/assert": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ]
+}
