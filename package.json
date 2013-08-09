@@ -1,6 +1,6 @@
 {
   "name": "day-of-year",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "get the day of year because javascript has no tm_yday",
   "main": "index.js",
   "directories": {
@@ -11,7 +11,8 @@
   },
   "keywords": [
     "date",
-    "year"
+    "year",
+    "date"
   ],
   "author": "stephen mathieson",
   "license": "MIT",
