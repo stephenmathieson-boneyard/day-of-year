@@ -16,10 +16,10 @@
   ],
   "author": "stephen mathieson",
   "license": "MIT",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "better-assert": "~1.0.0"
   },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git://github.com/stephenmathieson/day-of-year.git"

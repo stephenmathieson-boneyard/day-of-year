@@ -1,12 +1,13 @@
 
 /**
- * Magic number of mills in a day:
+ * Magic number.  Number mills in a day:
  *
  *     1 * 24 * 60 * 60 * 1000
  *
  * @api private
  * @type {Number}
  */
+
 var DAY_IN_MS = 864e5;
 
 /**
@@ -18,6 +19,7 @@ var DAY_IN_MS = 864e5;
  * @param {Date} date
  * @return {Number}
  */
+
 module.exports = function (date) {
   if (!date) date = new Date;
 
@@ -36,6 +38,7 @@ module.exports = function (date) {
  * @param {Number} day
  * @return {Date}
  */
+
 function noon(year, month, day) {
   return new Date(year, month, day, 12, 0, 0);
 }
