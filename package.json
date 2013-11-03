@@ -1,6 +1,6 @@
 {
   "name": "day-of-year",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "get the day of year because javascript has no tm_yday",
   "main": "index.js",
   "directories": {

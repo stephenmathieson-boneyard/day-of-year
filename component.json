@@ -2,7 +2,7 @@
   "name": "day-of-year",
   "repo": "stephenmathieson/day-of-year",
   "description": "get the day of year because javascript has no tm_yday",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "keywords": [ "day", "year", "date" ],
   "dependencies": {},
   "development": {
