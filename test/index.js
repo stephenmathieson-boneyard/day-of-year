@@ -25,6 +25,19 @@ describe('dayOfYear()', function () {
     assert(day(new Date('February 9, 2016')) === 40);
   });
 
+  it('should work no matter what time of day', function() {
+      var assertForDay = function(y, mo, d, expectedDayOfYear) {
+          for(var h = 0; h <= 23; h++) {
+            for( var min = 0; min <= 59; min++ ) {
+              assert(day(new Date(y, mo, d, h, min, 0)) === expectedDayOfYear);
+            }
+          }
+      };
+
+      assertForDay(2007, 6, 1, 182);
+      assertForDay(2016, 1, 8, 39);
+  });
+
 
   it('should assume the current date', function () {
     var now = new Date;
